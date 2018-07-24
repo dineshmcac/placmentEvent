@@ -1,83 +1,178 @@
-<!doctype html>
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="main.css">
+<link rel='stylesheet' href='googlespi.css'>
+<link rel="stylesheet" href="font.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+</style>
+<body class="w3-light-grey">
 
-<!-- ASSIGN OUR ANGULAR MODULE -->
-<html ng-app="scotchTodo">
-<head>
-	<!-- META -->
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1"><!-- Optimize mobile viewport -->
+<!-- Page Container -->
+<div class="w3-content w3-margin-top" style="max-width:1400px;">
 
-	<title>Node/Angular Todo App</title>
+  <!-- The Grid -->
+  <div class="w3-row-padding">
+  
+    <!-- Left Column -->
+    <div class="w3-third">
+    
+      <div class="w3-white w3-text-grey w3-card-4">
+        <div class="w3-display-container">
+          <img src="/screenshots/dinesh.jpg" style="width:100%" alt="Avatar">
+          <div class="w3-display-bottomleft w3-container w3-text-black">
+            
+              <h2 style="color: sandybrown">Dinesh Chengalvarayan</h2>
+          </div>
+        </div>
+        <div class="w3-container">
+          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Full Stack Automation Engineer</p>
+          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Chennai, India</p>
+          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>dineshmca.c@gmail.com</p>
+          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>+91-9840837185</p>
+          <hr>
 
-	<!-- SCROLLS -->
-	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"><!-- load bootstrap -->
-	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
-	<style>
-		html 					{ overflow-y:scroll; }
-		body 					{ padding-top:50px; }
-		#todo-list 				{ margin-bottom:30px; }
-		#todo-form 	 			{ margin-bottom:50px; }
-	</style>
+          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
+          <p>Selenium/RESTAssured</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:90%">90%</div>
+          </div>
+          <p>Cucumber Framework</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">
+              <div class="w3-center w3-text-white">80%</div>
+            </div>
+          </div>
+          <p>Appium</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:75%">75%</div>
+          </div>
+          <p>Jmeter</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:50%">50%</div>
+          </div>
+          <br>
 
-	<!-- SPELLS -->
-	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.min.js"></script><!-- load angular -->
+          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b></p>
+          <p>English</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
+          </div>
+          <p>Tamil</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
+          </div>
+          <p>Hindi</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:40%"></div>
+          </div>
+          <br>
+        </div>
+      </div><br>
 
-	<script src="js/controllers/main.js"></script> <!-- load up our controller -->
-	<script src="js/services/todos.js"></script> <!-- load our todo service -->
-	<script src="js/core.js"></script> <!-- load our main application -->
+    <!-- End Left Column -->
+    </div>
 
-</head>
-<!-- SET THE CONTROLLER -->
-<body ng-controller="mainController">
-	<div class="container">
+    <!-- Right Column -->
+    <div class="w3-twothird">
+    
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Senior SDET / www.gogoair.com</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2015 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
+          <p> <br> * RestAssured with Pojo/jsonpath
+              <br> * I was Part of developing - Unified framework with multimaven project successfully completed first version(web, mobile and rest services)
+              <br> * Convert unified wrapper class and method to support BDD(Cucumber) if complete
+            <br> * Load testing using jmeter
+            <br> * Developing backend REST API - using Springboot with MongoDB and jpa API vs Derby
+</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>QE&A - Automation Lead / www.cognizant.com </b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2016 - May 2018</h6>
+          <p>Acting as certified trainer for Selenium in Cognizant
+              <br>
+            
+              
+              <br><u>Completed Project :</u>
+                            <br>
+<br> 1) Selenium for Angularjs webpage using CRAFT framework (Keyword and DataDriven Framework). 
+Challenges and Learning - Writing unique and stable xpath , using ROBOT tool for file upload.
 
-		<!-- HEADER AND TODO COUNT -->
-		<div class="jumbotron text-center">
-			<h1>I'm a Todo-aholic <span class="label label-info">{{ todos.length }}</span></h1>
-		</div>
+<br> 2) Creating base platform on e-selenium framework (POM model), so that it can be used by many application.
+Challenges and Learning - Learning over the framework
 
-		<!-- TODO LIST -->
-		<div id="todo-list" class="row">
-			<div class="col-sm-4 col-sm-offset-4">
+<br> 3) Complicated API automation for REST call using RESTASSURED jar in Java. Integrated framework (POM and pagefactory pattern).
+Challenges and Learning - Creating re-usable(wrapper) method to be used for all REST call, invoking sorting validation and so on..
 
-				
+<br> 4) UI automation for search engine using Integrated framework (POM and pagefactory pattern).
+Challenges and Learning - integrating UI result with API result. and UI validation on different strategy. 
 
-				<!-- LOOP OVER THE TODOS IN $scope.todos -->
-				<div class="checkbox" ng-repeat="todo in todos">
-					<label>
-						<input type="checkbox" ng-click="deleteTodo(todo._id)"> {{ todo.text }}
-					</label>
-				</div>
+<br>5) POC on Mobile web and Android app automation using APPIUM (Need to explore on iPhone app) and Cross browser testing using sauce lab and parallel execution using Sauce lab.
 
-				<p class="text-center" ng-show="loading">
-					<span class="fa fa-spinner fa-spin fa-3x"></span>
-				</p>
+<br> 6) Automation of the Network Details is done using browser mob.
+Using Java code, we can pull the data, like different requests(GETCall, Status etc) and then assert them based on the validation as per the requirement.
+Advantage : Currently, the Automation scripts supports only UI and API, but the functionalities like Network provider output, status, GETCall, POSTCall etc should be verified manually, which actually is very much time consuming.
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Functional System Analyst/ www.aon.com</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Feb 2010 - Dec 2015</h6>
+          <p> <u>Manual Experience</u> : <br>
+              - Hold proven track records to prepare Test Strategy, Test Plan, Test Cases, and Test Data and manage Test Execution with Defect Analysis, Error fixing and reporting. <br>
+            <u>Automation Experience</u> : <br>
+              - Automation implementation as a PILOT project.
+              <br>- Automation Testing using Selenium, Experience in Selenium using Web Driver.
+              <br>- Good experience in Preparation of automated Tests using java with in TestNG Frame work and Debugging, Executing and finding the issues in script</p><br>
+        </div>
+      </div>
 
-			</div>
-		</div>
+       <div class="w3-container w3-card w3-white">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>https://dinesh-profile.herokuapp.com</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Forever</h6>
+          <p>Full Stack Development! All I need to know in one place</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Madras University</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2006 - 2009</h6>
+          <p>Master Degree</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>School of Statistics</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2003 - 2006</h6>
+          <p>Bachelor Degree</p><br>
+        </div>
+      </div> 
+        
+      
 
-		<!-- FORM TO CREATE TODOS -->
-		<div id="todo-form" class="row">
-			<div class="col-sm-8 col-sm-offset-2 text-center">
-				<form>
-					<div class="form-group">
+    <!-- End Right Column -->
+    </div>
+    
+  <!-- End Grid -->
+  </div>
+  
+  <!-- End Page Container -->
+</div>
 
-						<!-- BIND THIS VALUE TO formData.text IN ANGULAR -->
-						<input type="text" class="form-control input-lg text-center" placeholder="I want to buy a puppy that will love me forever" ng-model="formData.text">
-					</div>
-
-					<!-- createToDo() WILL CREATE NEW TODOS -->
-					<button type="submit" class="btn btn-primary btn-lg" ng-click="createTodo()">Add</button>
-				</form>
-			</div>
-		</div>
-
-		<div class="text-center text-muted">
-			<p>A demo by <a href="http://scotch.io">Scotch</a>.</p>
-			<p>Read the <a href="http://scotch.io/tutorials/javascript/creating-a-single-page-todo-app-with-node-and-angular">tutorial</a>.</p>
-		</div>
-
-	</div>
+<footer class="w3-container w3-teal w3-center w3-margin-top">
+  <p>Find me on social media.</p>
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+</footer>
 
 </body>
 </html>
